@@ -1,0 +1,21 @@
+/*Font da letra*/
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*Font da letra*/
+/*Toda estrutura do site*/
+    * {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+/*Toda estrutura do site*/
+/*Vareaveis*/
+    :root {
+        --bs-white: #ffff;
+    }
+/*Vareaveis*/
