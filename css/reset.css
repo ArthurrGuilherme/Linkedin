@@ -17,5 +17,10 @@
 /*Vareaveis*/
     :root {
         --bs-white: #ffff;
+        --bs-bluelinkedin: #0a66c2;
+        --bs-bluelinkedinhover: #0a66c239;
+    }
+    button {
+        background: var(--bs-white);
     }
 /*Vareaveis*/

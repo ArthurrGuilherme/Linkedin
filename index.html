@@ -24,7 +24,7 @@
 <body>
     <!--abertura para estrutura de front-->
         <main>
-            <section>
+            <section class="Formulario">
                 <!--Login do google e da apple-->
                     <article>
                         <div class="SessaoTexto">
@@ -61,17 +61,56 @@
                 <!--Separação do formulario-->
                     <article>
                         <div class="Sessaogap">
-                            <span></span>
+                            <!--Efeito de barra-->
+                                <span></span>
+                            <!--Efeito de barra-->
                             <p>ou</p>
-                            <span></span>
+                            <!--Efeito de barra-->
+                                <span></span>
+                            <!--Efeito de barra-->
                         </div>
                     </article>
                 <!--Separação do formulario-->
-                <form action="">
-
-                </form>
+                <br>
+                <!--Formulario de login-->
+                    <form action="">
+                        <!--Nome-->
+                            <input class="inputext" placeholder="E-mail ou telefone" type="text">
+                        <!--Nome-->
+                        <!--Senha-->
+                            <span class="password-container">
+                                <input placeholder="Senha" type="password" id="password" class="password-field">
+                                <button id="togglePassword" class="toggle-btn">Exibir</button>
+                            </span>
+                        <!--Senha-->
+                        <!--Link para resetar a senha-->
+                            <a href="https://www.linkedin.com/checkpoint/rp/request-password-reset?trk=guest_homepage-basic_nav-header-signin">Esqueceu a senha?</a>
+                        <!--Link para resetar a senha-->
+                        <!--Manter conectado-->
+                            <span style="padding-bottom: 1rem;" class="Checkbox">
+                                <input type="checkbox" name="" id="">
+                                <label>Me mantenha na conta</label>
+                            </span>
+                        <!--Manter conectado-->
+                        <!--Btn entrar-->
+                            <input class="BtnEntrar" type="button" value="Entrar">
+                        <!--Btn entrar-->
+                    </form>
+                <!--Formulario de login-->
             </section>
+            <!--Cadastro-->
+                <section>
+                    <article>
+                        <div>
+                            <span class="SessaoCadastro">
+                                <p>Ainda não faz parte do LinkedIn? <a href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin">Cadastre-se agora</a></p>
+                            </span>
+                        </div>
+                    </article>
+                </section>
+            <!--Cadastro-->
         </main>
     <!--abertura para estrutura de front-->
 </body>
+<script src="./js/button.js"></script>
 </html>

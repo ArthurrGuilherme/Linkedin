@@ -3,8 +3,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 1rem;
 }
-section {
+.Formulario {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     padding: 2rem;
     border-radius: 15px;
@@ -66,3 +68,82 @@ section {
             }
     }
 /*Login mid*/
+/*Login bot*/
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .password-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: 1px #000 solid;
+        padding: .5rem .5rem;
+        border-radius: 5px;
+    }
+    .inputext {
+        border: 1px #000 solid;
+        padding: .83rem .5rem;
+        border-radius: 5px;
+    }
+    .password-field {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .toggle-btn {
+        padding: 5px 10px;
+        font-size: .7rem;
+        cursor: pointer;
+        color: var( --bs-bluelinkedin);
+    }
+    .Checkbox {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+            label {
+                font-weight: 500;
+                font-size: .9rem;
+            }
+    }
+    form {
+        a {
+            color: var( --bs-bluelinkedin);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55%;
+            padding: .3rem .4rem;
+        }
+        a:hover {
+            text-decoration: underline;
+            background-color: var(--bs-bluelinkedinhover);
+            border-radius: 15px;
+        }
+    }
+    .BtnEntrar {
+        padding: 1rem 0px;
+        border-radius: 20px;
+        background: var( --bs-bluelinkedin);
+        color: var(--bs-white);
+        cursor: pointer;
+    }
+    .BtnEntrar:hover {
+        background: #0d469a;
+    }
+/*Login bot*/
+/*Cadastro*/
+    .SessaoCadastro {
+        p {
+            a {
+                color: var( --bs-bluelinkedin);
+            }
+            a:hover {
+                text-decoration: underline;
+                background-color: var(--bs-bluelinkedinhover);
+                border-radius: 15px;
+                padding: .3rem .4rem;
+            }
+        }
+    }
+/*Cadastro*/
