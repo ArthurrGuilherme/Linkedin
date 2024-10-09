@@ -4,10 +4,15 @@ main {
     justify-content: center;
     align-items: center;
 }
+section {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    border-radius: 15px;
+}
 /*Login top*/
     .SessaoTexto {
         display: flex;
-        gap: 0.5rem;
+        gap: 1.1rem;
         flex-direction: column;
             span {
                 h1 {
@@ -46,3 +51,18 @@ main {
         }
     }
 /*Login top*/
+/*Login mid*/
+    .Sessaogap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+            span {
+                border: 1px #00000069 solid;
+                width: 100%;
+            }
+            p {
+                color: #00000069;
+            }
+    }
+/*Login mid*/
